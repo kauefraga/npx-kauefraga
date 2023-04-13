@@ -2,6 +2,8 @@
   "name": "kauefraga",
   "version": "1.0.0",
   "description": "🖼 A command that expose my social medias",
+  "repository": "https://github.com/kauefraga/npx-kauefraga.git",
+  "bugs": "https://github.com/kauefraga/npx-kauefraga/issues",
   "main": "dist/bin.js",
   "bin": {
     "kauefraga": "./dist/bin.js"
@@ -19,5 +21,11 @@
     "welcome"
   ],
   "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
 }
