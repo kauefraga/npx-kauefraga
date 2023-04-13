@@ -4,12 +4,13 @@
   "description": "🖼 A command that expose my social medias",
   "repository": "https://github.com/kauefraga/npx-kauefraga.git",
   "bugs": "https://github.com/kauefraga/npx-kauefraga/issues",
-  "main": "dist/bin.js",
+  "main": "./dist/index.js",
   "bin": {
     "kauefraga": "./dist/index.js"
   },
   "scripts": {
-    "build": "tsup src/",
+    "prepublishOnly": "tsup index.ts",
+    "build": "tsup index.ts",
     "start": "node .",
     "dev": "tsx index.ts",
     "kauefraga": "kauefraga"
