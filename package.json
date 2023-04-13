@@ -1,0 +1,23 @@
+{
+  "name": "kauefraga",
+  "version": "1.0.0",
+  "description": "🖼 A command that expose my social medias",
+  "main": "dist/bin.js",
+  "bin": {
+    "kauefraga": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsup src/",
+    "start": "node .",
+    "dev": "tsx src/bin.ts",
+    "kauefraga": "kauefraga"
+  },
+  "keywords": [
+    "portfolio",
+    "cli",
+    "npx",
+    "welcome"
+  ],
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT"
+}
