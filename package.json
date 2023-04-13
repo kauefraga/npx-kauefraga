@@ -6,12 +6,12 @@
   "bugs": "https://github.com/kauefraga/npx-kauefraga/issues",
   "main": "dist/bin.js",
   "bin": {
-    "kauefraga": "./dist/bin.js"
+    "kauefraga": "./dist/index.js"
   },
   "scripts": {
     "build": "tsup src/",
     "start": "node .",
-    "dev": "tsx src/bin.ts",
+    "dev": "tsx index.ts",
     "kauefraga": "kauefraga"
   },
   "keywords": [
@@ -27,5 +27,8 @@
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ansi-colors": "^4.1.3"
   }
 }
